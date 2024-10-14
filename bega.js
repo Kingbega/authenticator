@@ -167,7 +167,7 @@ setTimeout(() => {
             
             var dev = [dj, dj2,dj3,luffy].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
             function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
-            console.log("\t🌍BARAKA-MD-V1 ONLINE🌍");
+            console.log("\t🍀BARAKA-MD-IS ONLINE🍀");
             console.log("=========== written message===========");
             if (verifGroupe) {
                 console.log("message provenant du groupe : " + nomGroupe);
@@ -430,7 +430,7 @@ function mybotpic() {
                                    // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
                                     const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
                                     var sticker = new Sticker(gifLink, {
-                                        pack: 'Baraka-Md',
+                                        pack: 'Baraka-MD',
                                         author: conf.OWNER_NAME,
                                         type: StickerTypes.FULL,
                                         categories: ['🤩', '🎉'],
@@ -528,7 +528,7 @@ function mybotpic() {
            // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
             const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
             var sticker = new Sticker(gifLink, {
-                pack: 'Baraka-Md',
+                pack: 'Baraka-MD',
                 author: conf.OWNER_NAME,
                 type: StickerTypes.FULL,
                 categories: ['🤩', '🎉'],
@@ -809,7 +809,7 @@ zk.ev.on('group-participants.update', async (group) => {
                 console.log("ℹ️ Baraka Md is connecting...");
             }
             else if (connection === 'open') {
-                console.log("🍀 Baraka Md Connected to WhatsApp! 🍀");
+                console.log("🍀 Baraka MD Connected to WhatsApp! 🍀");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
@@ -849,15 +849,15 @@ zk.ev.on('group-participants.update', async (group) => {
                 if((conf.DP).toLowerCase() === 'yes') {     
 
                     let cmsg =`
-┌─────────────────────❂
-│✑ BARAKA-MD-BOT IS ONLINE   
-┌─────────────────────❂
+┌──────────────────────❂
+│✑ BARAKA-MD-BOT IS ONLINE🍀   
+┌──────────────────────❂
 │✑ Prefix : [ ${prefixe} ]                  
 │✑ Commands : 240
 │✑ Ram : 22.34/54.86 GB
 │✑ Platform : Chrome Linux
 │✑ Owner : Baraka Chacha Bega
-└─────────────────────❂⁠⁠⁠⁠⁠⁠⁠⁠⁠`;
+└──────────────────────❂⁠⁠⁠⁠⁠⁠⁠⁠⁠`;
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
             }
