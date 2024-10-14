@@ -855,7 +855,7 @@ zk.ev.on('group-participants.update', async (group) => {
 ┊✑ Prefix : [  ${prefixe}  ] 
 ┊✑ Mode : ${mode}
 ┊✑ Commands : 240
-┊✑ Ram : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+┊✑ Ram : 24.29 GB/61.79 GB
 ┊✑ Platform : Chrome Linux
 ┊✑ Owner : Baraka Chacha Bega
 ╰═════════════════════════⊷❍`;
