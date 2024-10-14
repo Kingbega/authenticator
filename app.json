@@ -1,9 +1,9 @@
 {
   "name":"BARAKA-MD",
-  "description":"Best whatsapp bot developed by Baraka bega+Ibrahim adams",
+  "description":"Best whatsapp bot developed by Baraka bega & Ibrahim adams",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://i.imgur.com/0V5xT4v.jpeg",
-  "repository":"https://github.com/ibraahadam/BARAKA-MD-V3",
+  "repository":"https://github.com/Kingbega/nega-authenticator",
   "succes_url":"/",
   "stack":"container",
   "env":{
