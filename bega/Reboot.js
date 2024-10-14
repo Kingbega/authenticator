@@ -19,7 +19,7 @@ const{repondre,ms,dev,superUser}=com;
 
   const {exec}=require("child_process")
 
-    repondre("BARAKA-MD-V1 BOT RESTARTING🚨");
+    repondre("BARAKA-MD BOT RESTARTING🚨");
 
   exec("pm2 restart all");
   
