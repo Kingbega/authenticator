@@ -4,7 +4,7 @@ const {zokou} = require("../framework/zokou");
 
 zokou( {
   nomCom : "dit",
- categorie : "tts",
+ categorie : "AI",
   reaction : "👄" },
       async(dest,zk, commandeOptions)=> {
  
@@ -27,7 +27,7 @@ console.log(url);
 
 zokou( {
   nomCom : "itta",
- categorie : "tts",
+ categorie : "AI",
   reaction : "👄" },
       async(dest,zk, commandeOptions)=> {
  
@@ -50,7 +50,7 @@ console.log(url);
 
 zokou( {
   nomCom : "say",
- categorie : "tts",
+ categorie : "AI",
   reaction : "👄" },
       async(dest,zk, commandeOptions)=> {
  
