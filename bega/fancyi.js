@@ -127,7 +127,7 @@ zokou({
     _0x43a4ee = _0x4a30bb.videos;
     if (_0x43a4ee && _0x43a4ee.length > 0) {
       const _0x4b00b3 = _0x43a4ee[0].url;
-      const _0x2a1daf = await fetch("https://apis.ibrahimadams.us.kg/api/download/ytmp3?url=" + encodeURIComponent(_0x4b00b3) + "&apikey=" + "abutech");
+      const _0x2a1daf = await fetch("https://apis.ibrahimadams.us.kg/api/download/ytmp3?url=" + encodeURIComponent(_0x4b00b3) + "&apikey=" + "cracker");
       const _0x475016 = await _0x2a1daf.json();
       if (_0x475016.status === 200 && _0x475016.success) {
         const _0x26f57c = _0x475016.result.download_url;
