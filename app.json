@@ -35,7 +35,7 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"BARAKA-XMD",
+      "value":"BARAKA-MD",
       "required":false
 
     } ,
