@@ -45,7 +45,7 @@ zokou({
     arg: _0x126139,
     repondre: _0x73a750
   } = _0x3a0684;
-  await _0x73a750("ᴜᴘᴛɪᴍᴇ ᴏғ ʙᴀʀᴀᴋᴀ-ᴍᴅ ɪs: " + runtime(process.uptime()) + '*');
+  await _0x73a750("ᴜᴘᴛɪᴍᴇ ᴏғ ʙᴀʀᴀᴋᴀ-ᴍᴅ ɪs: " + runtime(process.uptime()) + '');
 });
 zokou({
   'nomCom': 'ss',
