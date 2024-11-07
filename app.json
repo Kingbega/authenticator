@@ -102,7 +102,7 @@
 	  
   },
 	    "AUTO_READ_MESSAGE":{
-    "description":"Enter yes for auto read messages.",
+    "description":"if you want to enable auto read message put yes else put no",
     "value":"",
     "required": false
     },
