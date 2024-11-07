@@ -101,8 +101,8 @@
     "required": false
 	  
   },
-	    "AUTO_READ_MESSAGE":{
-    "description":"if you want to enable auto read message put yes else put no",
+	    "AUTO_READ":{
+    "description":"Enter yes for auto read messages.",
     "value":"",
     "required": false
     },
