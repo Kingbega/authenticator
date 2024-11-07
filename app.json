@@ -101,7 +101,7 @@
     "required": false
 	  
   },
-	    "AUTO_READ":{
+	    "AUTO_READ_MESSAGE":{
     "description":"Enter yes for auto read messages.",
     "value":"",
     "required": false
