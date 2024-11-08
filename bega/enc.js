@@ -4,7 +4,7 @@ const {
 } = require("../framework/zokou");
 zokou({
   'nomCom': "enc",
-  'categorie': 'Mods'
+  'categorie': 'General'
 }, async (_0x3cf1f0, _0x36cbf1, _0x90621a) => {
   const {
     ms: _0x4b944b,
