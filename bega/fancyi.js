@@ -1,162 +1,160 @@
+require("dotenv").config();
 const {
   zokou
 } = require("../framework/zokou");
 const yts = require("yt-search");
+const BaseUrl = process.env.GITHUB_GIT;
+const giftedapikey = process.env.BOT_OWNER;
+function validateConfig() {
+  if (!BaseUrl || !giftedapikey) {
+    throw new Error("Configuration error: Missing BaseUrl or API key.");
+  }
+}
+validateConfig();
 zokou({
   'nomCom': "video",
-  'categorie': "Search",
-  'reaction': '🎥'
-}, async (_0x3643ec, _0x1895de, _0x4b749f) => {
-  const {
-    ms: _0x34f844,
-    repondre: _0x12e5f8,
-    arg: _0x151977
-  } = _0x4b749f;
-  if (!_0x151977[0]) {
-    _0x12e5f8("Please insert a song/video name.");
-    return;
-  }
-  try {
-    let _0x3e8be9 = _0x151977.join(" ");
-    let _0x52a93a = [];
-    const _0xc3a63f = await yts(_0x3e8be9);
-    _0x52a93a = _0xc3a63f.videos;
-    if (_0x52a93a && _0x52a93a.length > 0) {
-      const _0x3a755b = await _0x2bc96f.json();
-      if (_0x3a755b.status === 200 && _0x3a755b.success) {
-        const _0x49df33 = _0x3a755b.result.download_url;
-        const _0x53fc88 = {
-          'image': {
-            'url': _0x52a93a[0].thumbnail
-          },
-          'caption': "YOUTUBE SEARCH\n\n ©Baraka Bega"
-        };
-        await _0x1895de.sendMessage(_0x3643ec, _0x53fc88, {
-          'quoted': _0x34f844
-        });
-        await _0x1895de.sendMessage(_0x3643ec, {
-          'video': {
-            'url': _0x49df33
-          },
-          'mimetype': "video/mp4"
-        }, {
-          'quoted': _0x34f844
-        });
-        _0x12e5f8("Downloded Successfully ✅");
-      } else {
-        _0x12e5f8("Searching...⏳");
-      }
-    } else {
-      _0x12e5f8("No videos found.");
-    }
-  } catch (_0x314c47) {
-    console.error("Error from API:", _0x314c47);
-    _0x12e5f8("Searching...⏳");
-  }
-});
-zokou({
-  'nomCom': "song",
   'categorie': "Download",
-  'reaction': '🎸'
-}, async (_0x271a33, _0x6707e5, _0x520fff) => {
+  'reaction': '🎥'
+}, async (_0x564cb3, _0xd60aca, _0x5bfbdd) => {
   const {
-    ms: _0x1e2f77,
-    repondre: _0x300732,
-    arg: _0x53d21a
-  } = _0x520fff;
-  if (!_0x53d21a[0]) {
-    _0x300732("Please insert a song name.");
-    return;
+    ms: _0x2845c4,
+    repondre: _0x94547f,
+    arg: _0x382a12
+  } = _0x5bfbdd;
+  if (!_0x382a12[0]) {
+    return _0x94547f("Please insert a song/video name.");
   }
   try {
-    let _0x226ad0 = _0x53d21a.join(" ");
-    let _0x994c29 = [];
-    const _0x9d0929 = await yts(_0x226ad0);
-    _0x994c29 = _0x9d0929.videos;
-    if (_0x994c29 && _0x994c29.length > 0) {
-      const _0x20c972 = await _0x4983e8.json();
-      if (_0x20c972.status === 200 && _0x20c972.success) {
-        const _0x30773c = _0x20c972.result.download_url;
-        const _0x139808 = {
-          'image': {
-            'url': _0x994c29[0].thumbnail
-          },
-          'caption': "YOUTUBE SEARCH\n\n ©Baraka Bega"
-        };
-        await _0x6707e5.sendMessage(_0x271a33, _0x139808, {
-          'quoted': _0x1e2f77
-        });
-        await _0x6707e5.sendMessage(_0x271a33, {
-          'audio': {
-            'url': _0x30773c
-          },
-          'mimetype': "audio/mp4"
-        }, {
-          'quoted': _0x1e2f77
-        });
-        _0x300732("*Downloded Successfully ✅*");
-      } else {
-        _0x300732("Failed to download audio. Please try again later.");
-      }
-    } else {
-      _0x300732("No audio found.");
+    const _0x221cc7 = await yts(_0x382a12.join(" "));
+    const _0x249cad = _0x221cc7.videos;
+    if (_0x249cad.length === 0) {
+      return _0x94547f("No videos found.");
     }
-  } catch (_0x2144bd) {
-    console.error("Error from API:", _0x2144bd);
-    _0x300732("An error occurred while searching or downloading the audio.");
+    const _0x479d7b = _0x249cad[0].url;
+    const _0x5643f7 = await fetch(BaseUrl + "/api/download/ytmp4?url=" + encodeURIComponent(_0x479d7b) + "&apikey=" + giftedapikey);
+    const _0x23a48c = await _0x5643f7.json();
+    if (_0x23a48c.status === 200 && _0x23a48c.success) {
+      const _0x27e6bf = _0x23a48c.result.download_url;
+      await _0xd60aca.sendMessage(_0x564cb3, {
+        'image': {
+          'url': _0x249cad[0].thumbnail
+        },
+        'caption': "╭─────═━┈┈━═──━┈⊷\n┇ 『 *DOWNLOADED* 』\n┇ *BY* \n┇ *BARAKA-MD* \n╰─────═━┈┈━═──━┈⊷"
+      }, {
+        'quoted': _0x2845c4
+      });
+      await _0xd60aca.sendMessage(_0x564cb3, {
+        'video': {
+          'url': _0x27e6bf
+        },
+        'mimetype': "video/mp4"
+      }, {
+        'quoted': _0x2845c4
+      });
+      _0x94547f("Downloaded Successfully by Baraka-MD");
+    } else {
+      _0x94547f("Failed to download the video.");
+    }
+  } catch (_0x3791b9) {
+    console.error("Error:", _0x3791b9);
+    _0x94547f("An error occurred while processing your request.");
   }
 });
 zokou({
   'nomCom': "play",
   'categorie': "Download",
   'reaction': '🎸'
-}, async (_0x80c678, _0x1dc8a0, _0x27d06f) => {
+}, async (_0x29f382, _0x217f63, _0x3f9ad9) => {
   const {
-    ms: _0xfb7714,
-    repondre: _0x19492f,
-    arg: _0x50635c
-  } = _0x27d06f;
-  if (!_0x50635c[0]) {
-    _0x19492f("Please insert a song name.");
-    return;
+    ms: _0x280cf1,
+    repondre: _0x4e87d2,
+    arg: _0x4d0f4f
+  } = _0x3f9ad9;
+  if (!_0x4d0f4f[0]) {
+    return _0x4e87d2("Please insert a song name.");
   }
   try {
-    let _0x3e9ef3 = _0x50635c.join(" ");
-    let _0x43a4ee = [];
-    const _0x4a30bb = await yts(_0x3e9ef3);
-    _0x43a4ee = _0x4a30bb.videos;
-    if (_0x43a4ee && _0x43a4ee.length > 0) {
-      const _0x4b00b3 = _0x43a4ee[0].url;
-      const _0x2a1daf = await fetch("https://apis.ibrahimadams.us.kg/api/download/ytmp3?url=" + encodeURIComponent(_0x4b00b3) + "&apikey=" + "cracker");
-      const _0x475016 = await _0x2a1daf.json();
-      if (_0x475016.status === 200 && _0x475016.success) {
-        const _0x26f57c = _0x475016.result.download_url;
-        const _0x232b70 = {
-          'image': {
-            'url': _0x43a4ee[0].thumbnail
-          },
-          'caption': "YOUTUBE SEARCH\n\n ©Baraka Bega"
-        };
-        await _0x1dc8a0.sendMessage(_0x80c678, _0x232b70, {
-          'quoted': _0xfb7714
-        });
-        await _0x1dc8a0.sendMessage(_0x80c678, {
-          'audio': {
-            'url': _0x26f57c
-          },
-          'mimetype': "audio/mp4"
-        }, {
-          'quoted': _0xfb7714
-        });
-        _0x19492f("*Downloded Successfully ✅*");
-      } else {
-        _0x19492f("Failed to download audio. Please try again later.");
-      }
-    } else {
-      _0x19492f("No audio found.");
+    const _0x3d3904 = await yts(_0x4d0f4f.join(" "));
+    const _0x5d34b7 = _0x3d3904.videos;
+    if (_0x5d34b7.length === 0) {
+      return _0x4e87d2("No audio found.");
     }
-  } catch (_0x45d554) {
-    console.error("Error from API:", _0x45d554);
-    _0x19492f("An error occurred while searching or downloading the audio.");
+    const _0x30d4ed = _0x5d34b7[0].url;
+    const _0x5a4256 = await fetch(BaseUrl + "/api/download/ytmp3?url=" + encodeURIComponent(_0x30d4ed) + "&apikey=" + giftedapikey);
+    const _0x29c10c = await _0x5a4256.json();
+    if (_0x29c10c.status === 200 && _0x29c10c.success) {
+      const _0x5e4bbe = _0x29c10c.result.download_url;
+      await _0x217f63.sendMessage(_0x29f382, {
+        'image': {
+          'url': _0x5d34b7[0].thumbnail
+        },
+        'caption': "╭─────═━┈┈━═──━┈⊷\n┇ 『 *DOWNLOADED* 』\n┇ *BY* \n┇ *BARAKA-MD* \n╰─────═━┈┈━═──━┈⊷"
+      }, {
+        'quoted': _0x280cf1
+      });
+      await _0x217f63.sendMessage(_0x29f382, {
+        'audio': {
+          'url': _0x5e4bbe
+        },
+        'mimetype': "audio/mp4"
+      }, {
+        'quoted': _0x280cf1
+      });
+      _0x4e87d2("Downloaded Successfully by Baraka-MD");
+    } else {
+      _0x4e87d2("Failed to download audio. Try again later.");
+    }
+  } catch (_0x4a4562) {
+    console.error("Error:", _0x4a4562);
+    _0x4e87d2("An error occurred while processing your request.");
+  }
+});
+zokou({
+  'nomCom': "song",
+  'categorie': "Download",
+  'reaction': '🎸'
+}, async (_0x29937c, _0xeb0280, _0x526cbf) => {
+  const {
+    ms: _0x3bee1c,
+    repondre: _0x9de6b4,
+    arg: _0x237db6
+  } = _0x526cbf;
+  if (!_0x237db6[0]) {
+    return _0x9de6b4("Please insert a song name.");
+  }
+  try {
+    const _0x4ddf1f = await yts(_0x237db6.join(" "));
+    const _0xab1198 = _0x4ddf1f.videos;
+    if (_0xab1198.length === 0) {
+      return _0x9de6b4("No audio found.");
+    }
+    const _0x2c5d34 = _0xab1198[0].url;
+    const _0x27d61f = await fetch(BaseUrl + "/api/download/ytmp3?url=" + encodeURIComponent(_0x2c5d34) + "&apikey=" + giftedapikey);
+    const _0x56c7dd = await _0x27d61f.json();
+    if (_0x56c7dd.status === 200 && _0x56c7dd.success) {
+      const _0x125e79 = _0x56c7dd.result.download_url;
+      await _0xeb0280.sendMessage(_0x29937c, {
+        'image': {
+          'url': _0xab1198[0].thumbnail
+        },
+        'caption': "╭─────═━┈┈━═──━┈⊷\n┇ 『 *DOWNLOADED* 』\n┇ *BY* \n┇ *BARAKA-MD* \n╰─────═━┈┈━═──━┈⊷"
+      }, {
+        'quoted': _0x3bee1c
+      });
+      await _0xeb0280.sendMessage(_0x29937c, {
+        'audio': {
+          'url': _0x125e79
+        },
+        'mimetype': "audio/mp4"
+      }, {
+        'quoted': _0x3bee1c
+      });
+      _0x9de6b4("Downloaded Successfully by Baraka-MD");
+    } else {
+      _0x9de6b4("Failed to download audio. Try again later.");
+    }
+  } catch (_0x298c7d) {
+    console.error("Error:", _0x298c7d);
+    _0x9de6b4("An error occurred while processing your request.");
   }
 });
