@@ -48,7 +48,7 @@ zokou(
 			let baseURI = "/apps/" + s.HEROKU_APP_NAME;
 
             let h = await heroku.get(baseURI+'/config-vars')
-let str = '*BARAKA-MD-V2 WABOT VARS*\n\n'
+let str = '*BARAKA-MD WABOT VARS*\n\n'
 for (vr in h) {
 str+= '🚘 *'+vr+'* '+'= '+h[vr]+'\n'
 }
