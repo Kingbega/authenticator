@@ -8,7 +8,7 @@ const s = require(__dirname + "/../set");
 const more = String.fromCharCode(8206)
 const readmore = more.repeat(4001)
 
-zokou({ nomCom: "payment", categorie: "General" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "commands", categorie: "General" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
     let { cm } = require(__dirname + "/../framework//zokou");
     var coms = {};
@@ -34,13 +34,260 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
 let infoMsg =  `
-Tanzanians 🇹🇿 
-⏤͟͟͞͞★0762190568 VODACOM NAME ANNA BEGA
-⏤͟͟͞͞★0679513639 TIGOPESA NAME ANNA BEGA   
 
-Kenyans 🇰🇪 
-⏤͟͟͞͞★+255762190568 VODACOM NAME ANNA BEGA
-⏤͟͟͞͞★+255679513639 TIGOPESA NAME ANNA BEGA`;
+╭════════════════════⊷❍
+     〘 ALL COMMANDS 〙
+╰════════════════════⊷❍
+╭────❍ai-menu❍ 
+┊❍ ai
+┊❍ dit 
+┊❍ itta 
+┊❍ say 
+┊❍ bot 
+┊❍ dalle 
+┊❍ gpt2 
+┊❍ gpt 
+┊❍ generate 
+┊❍ extract 
+┊❍ bing 
+┊❍ bing2 
+┊❍ ilama 
+┊❍ beautify 
+┊❍ news
+╰═════════════❍
+╭────❍owner-menu❍
+┊❍ owner 
+┊❍ dev 
+┊❍ support 
+┊❍ alive 
+┊❍ bible 
+┊❍ poll 
+┊❍ enc 
+┊❍ help 
+┊❍ list 
+┊❍ menu 
+┊❍ payment 
+┊❍ git 
+┊❍ test 
+┊❍ repo 
+┊❍ sc 
+┊❍ scan 
+┊❍ script 
+┊❍ ping 
+┊❍ uptime 
+┊❍ ss 
+┊❍ vv
+╰═════════════❍ 
+╭────❍game-menu❍
+┊❍ guessage 
+┊❍ guesscountry 
+┊❍ guessgender 
+┊❍ riddle 
+┊❍ chifumi 
+┊❍ quizz
+╰═════════════❍ 
+╭────❍hentai-menu❍
+┊❍ ass 
+┊❍ masterbation 
+┊❍ thigh 
+┊❍ panty 
+┊❍ hwaifu 
+┊❍ trap 
+┊❍ hneko 
+┊❍ blowjob 
+┊❍ hentaivid
+╰═════════════❍
+╭────❍mods-menu❍ 
+┊❍ tgs 
+┊❍ crew 
+┊❍ left 
+┊❍ join 
+┊❍ jid 
+┊❍ block 
+┊❍ unblock 
+┊❍ ban 
+┊❍ bangroup 
+┊❍ sudo 
+┊❍ save 
+┊❍ mention 
+┊❍ restart 
+┊❍ left 
+┊❍ reboot
+╰═════════════❍
+╭────❍gc-menu❍
+┊❍ kickall 
+┊❍ onlyadmin 
+┊❍ welcome 
+┊❍ goodbye 
+┊❍ antipromote 
+┊❍ antidemote 
+┊❍ tagall 
+┊❍ link 
+┊❍ promote 
+┊❍ demote 
+┊❍ remove 
+┊❍ del 
+┊❍ info 
+┊❍ antilink 
+┊❍ antibot 
+┊❍ group 
+┊❍ gname 
+┊❍ gdesc 
+┊❍ gpp 
+┊❍ hidetag 
+┊❍ automute 
+┊❍ autounmute 
+┊❍ fkick 
+┊❍ nsfw 
+┊❍ vcf 
+┊❍ warn
+╰═════════════❍
+╭────❍fun-menu❍ 
+┊❍ ranime 
+┊❍ profile 
+┊❍ quote 
+┊❍ rank 
+┊❍ toprank
+╰═════════════❍
+╭────❍search-menu❍
+┊❍ google 
+┊❍ imdb 
+┊❍ movie 
+┊❍ define 
+┊❍ lyrics 
+┊❍ video 
+┊❍ github 
+┊❍ img 
+┊❍ lyrics 
+┊❍ stickersearch 
+┊❍ weather 
+┊❍ yts
+╰═════════════❍
+╭────❍con-menu❍
+┊❍ emomix 
+┊❍ sticker 
+┊❍ scrop 
+┊❍ take 
+┊❍ write 
+┊❍ photo 
+┊❍ trt 
+┊❍ url
+╰═════════════❍
+╭────❍quote-menu❍
+┊❍ fact 
+┊❍ quotes
+╰═════════════❍
+╭────❍edit-meny❍
+┊❍ shit 
+┊❍ wasted 
+┊❍ wanted 
+┊❍ trigger 
+┊❍ trash 
+┊❍ rip 
+┊❍ sepia 
+┊❍ rainbow 
+┊❍ hitler 
+┊❍ invert 
+┊❍ jail 
+┊❍ affect 
+┊❍ beautiful 
+┊❍ blur 
+┊❍ circle 
+┊❍ facepalm 
+┊❍ greyscale 
+┊❍ joke
+╰═════════════❍
+╭────❍logo-menu❍ 
+┊❍ design 
+┊❍ hacker 
+┊❍ dragonball 
+┊❍ naruto 
+┊❍ didong 
+┊❍ wall 
+┊❍ summer 
+┊❍ neonlight 
+┊❍ greenneon 
+┊❍ glitch 
+┊❍ devil 
+┊❍ boom 
+┊❍ water 
+┊❍ snow 
+┊❍ transformer 
+┊❍ thunder 
+┊❍ harrypotter 
+┊❍ cat 
+┊❍ whitegold 
+┊❍ lightglow 
+┊❍ thor 
+┊❍ neon 
+┊❍ purple 
+┊❍ gold 
+┊❍ arena 
+┊❍ incandescent
+╰═════════════❍
+╭────❍dl-menu❍
+┊❍ song 
+┊❍ play 
+┊❍ anime 
+┊❍ gitclone 
+┊❍ tiktok 
+┊❍ image-dl 
+┊❍ instagram 
+┊❍ ig-story 
+┊❍ video-dl 
+┊❍ twitter 
+┊❍ mediafire 
+┊❍ fb 
+┊❍ fb2 
+┊❍ ytmp4 
+┊❍ ytmp3
+╰═════════════❍
+╭────❍heroku-menu❍
+┊❍ setvar 
+┊❍ allvar 
+┊❍ getvar
+┊❍ bully 
+┊❍ cuddle 
+┊❍ cry 
+┊❍ hug 
+┊❍ awoo 
+┊❍ kiss 
+┊❍ lick 
+┊❍ pat 
+┊❍ smug 
+┊❍ bonk 
+┊❍ yeet 
+┊❍ blush 
+┊❍ smile 
+┊❍ wave 
+┊❍ highfive 
+┊❍ handhold 
+┊❍ nom 
+┊❍ bite 
+┊❍ glomp 
+┊❍ slap 
+┊❍ kill 
+┊❍  kick 
+┊❍ happy 
+┊❍ wink 
+┊❍ poke 
+┊❍ dance 
+┊❍ cringe
+╰═════════════❍
+╭────❍stick-cmd❍
+┊❍ setcmd 
+┊❍ delcmd 
+┊❍ allcmd
+╰═════════════❍
+╭────❍weeb-menu❍
+┊❍ waifu 
+┊❍ neko 
+┊❍ shinobu 
+┊❍ megumin 
+┊❍ cosplay 
+┊❍ couplepp
+╰════════════════════════⊷❍
+`;
     
 let menuMsg = `
   `;
