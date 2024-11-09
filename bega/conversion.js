@@ -5,7 +5,7 @@ const {
 } = require("wa-sticker-formatter");
 const {
   zokou 
-} = require("../keizzah/keith");
+} = require("../framework/zokou");
 const traduire = require("../framework/zokou");
 const {
   downloadMediaMessage,
