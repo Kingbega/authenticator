@@ -1,1 +1,347 @@
-function _0x25fa(){const _0x35d765=['age\x20or\x20vid','tion\x20an\x20im','3640833GgBGTk','VVWPF','ukKFA','toFile','xtMessage','68IZyfOU','.webp','aeETi','sgsPk','floor','LAtlO','XWAiv','10572oGowRt','JJMod','Please\x20men','log','videoMessa','contextInf','translate','message','en)','SsOXz','video','Conversion','stringify','LwNWd','eo!','228vGxkKG','7NjzyeA','12598776mdndbt','PWOzd','👨🏿‍💻','KruHW','wXrPn','5960248NPbrUo','tHZEg','52nxOgtZ','image','imageMessa','XBIWN','CROPPED','texte\x20Mess','ldrlK','NYDKX','conversati','crop','7300690TxOWMY','Mention\x20a\x20','readFileSy','Xcuwo','GKZri','FULL','unlinkSync','quotedMess','Baraka-MD','includes','11OsqRoK','lSdny','random','concat','poGTL','yukdq','40KbVGaj','45616VlWkBW','sendMessag','(eg\x20:\x20trt\x20','extendedTe','age','bDDab','from','907428YCnPTe'];_0x25fa=function(){return _0x35d765;};return _0x25fa();}const _0x2ded8a=_0x363f;function _0x363f(_0x23f62b,_0x10e148){const _0x9c4591=_0x25fa();return _0x363f=function(_0x377e03,_0x204f35){_0x377e03=_0x377e03-(-0x1fe7+-0x1*0x40d+0x24d0);let _0x253275=_0x9c4591[_0x377e03];return _0x253275;},_0x363f(_0x23f62b,_0x10e148);}(function(_0x486f3d,_0x52e28c){const _0x342783=_0x363f,_0x357dfd=_0x486f3d();while(!![]){try{const _0x617bfe=-parseInt(_0x342783(0x112))/(0x2b6*0x3+0x3dd+-0xbfe)*(parseInt(_0x342783(0x10b))/(0x4a5*-0x7+0x1*0x1f39+0x1*0x14c))+-parseInt(_0x342783(0x121))/(0x9*-0x3bb+0x1d40+-0x22b*-0x2)*(parseInt(_0x342783(0xfc))/(-0x443*0x3+-0x1dfa+0x2ac7))+-parseInt(_0x342783(0xfb))/(0xec9+0xc87+-0x1b4b)*(parseInt(_0x342783(0x103))/(-0x2f*0x8f+0x1*0x21fb+0x1*-0x7b4))+-parseInt(_0x342783(0x122))/(-0x199e+-0x1880+0x10b7*0x3)*(parseInt(_0x342783(0xdf))/(0x1*0x18cb+-0xb19+-0x48e*0x3))+parseInt(_0x342783(0x106))/(0x1f18+0x63*-0x31+0xa*-0x136)+parseInt(_0x342783(0xeb))/(0xd*0xba+-0x1*-0x22f1+-0x2c59)*(-parseInt(_0x342783(0xf5))/(0x10d7+-0xa0+-0x14*0xcf))+parseInt(_0x342783(0x123))/(0x1b47+-0x2ac+-0x188f)*(parseInt(_0x342783(0xe1))/(-0x1767+0x2285+-0xb11*0x1));if(_0x617bfe===_0x52e28c)break;else _0x357dfd['push'](_0x357dfd['shift']());}catch(_0x4dbeea){_0x357dfd['push'](_0x357dfd['shift']());}}}(_0x25fa,0x122734+0x5*-0xaa59+-0x4408a),zokou({'nomCom':_0x2ded8a(0x118),'categorie':_0x2ded8a(0x11d),'reaction':_0x2ded8a(0xdc)},async(_0x20c3e1,_0x28a5e9,_0x598d05)=>{const _0x2b413d=_0x2ded8a,_0x28a675={'ukKFA':function(_0xc72fe3,_0x22ebb9){return _0xc72fe3(_0x22ebb9);},'poGTL':_0x2b413d(0xfe)+_0x2b413d(0x11a),'lSdny':function(_0x2b64ed,_0x3bd593,_0x9a85fc){return _0x2b64ed(_0x3bd593,_0x9a85fc);},'sgsPk':_0x2b413d(0xec)+_0x2b413d(0xe6)+_0x2b413d(0x100),'LAtlO':function(_0x4670e,_0x370334){return _0x4670e(_0x370334);}},{msgRepondu:_0x3dc62c,repondre:_0x40e8b6,arg:_0x779735}=_0x598d05;if(_0x3dc62c)try{if(!_0x779735||!_0x779735[-0x1f63*0x1+0x22fe+-0x47*0xd]){_0x28a675[_0x2b413d(0x108)](_0x40e8b6,_0x28a675[_0x2b413d(0xf9)]);return;}let _0x4ee05b=await _0x28a675[_0x2b413d(0xf6)](traduire,_0x3dc62c[_0x2b413d(0xe9)+'on'],{'to':_0x779735[0x2144+0x1a3b+-0x1*0x3b7f]});_0x28a675[_0x2b413d(0x108)](_0x40e8b6,_0x4ee05b);}catch(_0x33bb31){_0x28a675[_0x2b413d(0x108)](_0x40e8b6,_0x28a675[_0x2b413d(0x10e)]);}else _0x28a675[_0x2b413d(0x110)](_0x40e8b6,_0x28a675[_0x2b413d(0x10e)]);}),zokou({'nomCom':'s','categorie':_0x2ded8a(0x11d),'reaction':_0x2ded8a(0xdc)},async(_0x37e864,_0x1f7784,_0x28ce6f)=>{const _0x2f92f5=_0x2ded8a,_0x5d9a44={'XBIWN':function(_0xf7c0cb,_0x5bcda8){return _0xf7c0cb*_0x5bcda8;},'ldrlK':function(_0x28381e,_0xb3c78d){return _0x28381e===_0xb3c78d;},'yukdq':_0x2f92f5(0xe3)+'ge','SsOXz':_0x2f92f5(0x116)+'ge','NYDKX':function(_0x5e6935,_0x29dd7a){return _0x5e6935===_0x29dd7a;},'JJMod':_0x2f92f5(0xff)+_0x2f92f5(0x10a),'KruHW':function(_0x51d6b6,_0x27d25c){return _0x51d6b6===_0x27d25c;},'Xcuwo':function(_0x1a5c03,_0x42e702){return _0x1a5c03(_0x42e702);},'aeETi':_0x2f92f5(0x10c),'PWOzd':function(_0x196637,_0x1466a0,_0x52cabb){return _0x196637(_0x1466a0,_0x52cabb);},'VVWPF':_0x2f92f5(0xe2),'GKZri':_0x2f92f5(0xf3),'LwNWd':_0x2f92f5(0xea),'bDDab':function(_0x373d87,_0x311158,_0x1cb009){return _0x373d87(_0x311158,_0x1cb009);},'wXrPn':_0x2f92f5(0x11c),'tHZEg':function(_0x353269,_0x46bfb7){return _0x353269(_0x46bfb7);},'XWAiv':_0x2f92f5(0x114)+_0x2f92f5(0x105)+_0x2f92f5(0x104)+_0x2f92f5(0x120)};let {ms:_0x5de94c,mtype:_0x50e671,arg:_0x5b3f6a,repondre:_0x3adde8,nomAuteurMessage:_0x8d86e1}=_0x28ce6f;var _0x4f6bf0=JSON[_0x2f92f5(0x11e)](_0x5de94c[_0x2f92f5(0x119)]),_0x24fb0c=_0x5d9a44[_0x2f92f5(0xe7)](_0x50e671,_0x5d9a44[_0x2f92f5(0xfa)])||_0x5d9a44[_0x2f92f5(0xe7)](_0x50e671,_0x5d9a44[_0x2f92f5(0x11b)]),_0x3ca096=_0x5d9a44[_0x2f92f5(0xe8)](_0x50e671,_0x5d9a44[_0x2f92f5(0x113)])&&_0x4f6bf0[_0x2f92f5(0xf4)](_0x5d9a44[_0x2f92f5(0xfa)]),_0x3e9cb0=_0x5d9a44[_0x2f92f5(0xdd)](_0x50e671,_0x5d9a44[_0x2f92f5(0x113)])&&_0x4f6bf0[_0x2f92f5(0xf4)](_0x5d9a44[_0x2f92f5(0x11b)]);const _0x3fac67=_0x7ac326=>{const _0x3c4f1f=_0x2f92f5;return''+Math[_0x3c4f1f(0x10f)](_0x5d9a44[_0x3c4f1f(0xe4)](Math[_0x3c4f1f(0xf7)](),-0x392*-0x2+-0x7*0x5ce+-0x2447*-0x2))+_0x7ac326;},_0x2c788e=_0x5d9a44[_0x2f92f5(0xee)](_0x3fac67,_0x5d9a44[_0x2f92f5(0x10d)]);if(_0x5d9a44[_0x2f92f5(0xe8)](_0x50e671,_0x5d9a44[_0x2f92f5(0xfa)])||_0x3ca096){let _0x37a087;_0x5de94c[_0x2f92f5(0x119)][_0x2f92f5(0xe3)+'ge']?_0x37a087=_0x5de94c[_0x2f92f5(0x119)][_0x2f92f5(0xe3)+'ge']:_0x37a087=_0x5de94c[_0x2f92f5(0x119)][_0x2f92f5(0xff)+_0x2f92f5(0x10a)][_0x2f92f5(0x117)+'o'][_0x2f92f5(0xf2)+_0x2f92f5(0x100)][_0x2f92f5(0xe3)+'ge'];const _0x4f44ea=await _0x5d9a44[_0x2f92f5(0x124)](downloadContentFromMessage,_0x37a087,_0x5d9a44[_0x2f92f5(0x107)]);let _0xf0ff38=Buffer[_0x2f92f5(0x102)]([]);for await(const _0x51ddec of _0x4f44ea){_0xf0ff38=Buffer[_0x2f92f5(0xf8)]([_0xf0ff38,_0x51ddec]);}sticker=new Sticker(_0xf0ff38,{'pack':_0x5d9a44[_0x2f92f5(0xef)],'author':_0x8d86e1,'type':_0x5b3f6a[_0x2f92f5(0xf4)](_0x5d9a44[_0x2f92f5(0x11f)])||_0x5b3f6a[_0x2f92f5(0xf4)]('c')?StickerTypes[_0x2f92f5(0xe5)]:StickerTypes[_0x2f92f5(0xf0)],'quality':0x64});}else{if(_0x5d9a44[_0x2f92f5(0xdd)](_0x50e671,_0x5d9a44[_0x2f92f5(0x11b)])||_0x3e9cb0){let _0x14ba16;_0x5de94c[_0x2f92f5(0x119)][_0x2f92f5(0x116)+'ge']?_0x14ba16=_0x5de94c[_0x2f92f5(0x119)][_0x2f92f5(0x116)+'ge']:_0x14ba16=_0x5de94c[_0x2f92f5(0x119)][_0x2f92f5(0xff)+_0x2f92f5(0x10a)][_0x2f92f5(0x117)+'o'][_0x2f92f5(0xf2)+_0x2f92f5(0x100)][_0x2f92f5(0x116)+'ge'];const _0x1effac=await _0x5d9a44[_0x2f92f5(0x101)](downloadContentFromMessage,_0x14ba16,_0x5d9a44[_0x2f92f5(0xde)]);let _0x83caf8=Buffer[_0x2f92f5(0x102)]([]);for await(const _0x224523 of _0x1effac){_0x83caf8=Buffer[_0x2f92f5(0xf8)]([_0x83caf8,_0x224523]);}sticker=new Sticker(_0x83caf8,{'pack':_0x5d9a44[_0x2f92f5(0xef)],'author':_0x8d86e1,'type':_0x5b3f6a[_0x2f92f5(0xf4)]('-r')||_0x5b3f6a[_0x2f92f5(0xf4)]('-c')?StickerTypes[_0x2f92f5(0xe5)]:StickerTypes[_0x2f92f5(0xf0)],'quality':0x28});}else{_0x5d9a44[_0x2f92f5(0xe0)](_0x3adde8,_0x5d9a44[_0x2f92f5(0x111)]);return;}}await sticker[_0x2f92f5(0x109)](_0x2c788e),await _0x1f7784[_0x2f92f5(0xfd)+'e'](_0x37e864,{'sticker':fs[_0x2f92f5(0xed)+'nc'](_0x2c788e)},{'quoted':_0x5de94c});try{fs[_0x2f92f5(0xf1)](_0x2c788e);}catch(_0x40fa7c){console[_0x2f92f5(0x115)](_0x40fa7c);}}));
+const { Sticker, createSticker, StickerTypes } = require('wa-sticker-formatter');
+const { zokou } = require("../framework/zokou");
+const traduire = require("../framework/traduction");
+const { downloadMediaMessage,downloadContentFromMessage } =  require('@whiskeysockets/baileys');
+const fs =require("fs-extra") ;
+const axios = require('axios');  
+const FormData = require('form-data');
+const { exec } = require("child_process");
+
+
+
+async function uploadToTelegraph(Path) {
+  if (!fs.existsSync(Path)) {
+      throw new Error("Fichier non existant");
+  }
+
+  try {
+      const form = new FormData();
+      form.append("file", fs.createReadStream(Path));
+
+      const { data } = await axios.post("https://telegra.ph/upload", form, {
+          headers: {
+              ...form.getHeaders(),
+          },
+      });
+
+      if (data && data[0] && data[0].src) {
+          return "https://telegra.ph" + data[0].src;
+      } else {
+          throw new Error("Erreur lors de la récupération du lien de la vidéo");
+      }
+  } catch (err) {
+      throw new Error(String(err));
+  }
+}
+
+
+
+zokou({nomCom:"s",categorie: "Conversion", reaction: "👨🏿‍💻"},async(origineMessage,zk,commandeOptions)=>{
+
+let {ms,mtype,arg,repondre,nomAuteurMessage}=commandeOptions
+  var txt=JSON.stringify(ms.message)
+
+  var mime=mtype === "imageMessage" || mtype === "videoMessage";
+  var tagImage = mtype==="extendedTextMessage" && txt.includes("imageMessage")
+  var tagVideo = mtype==="extendedTextMessage" && txt.includes("videoMessage")
+
+const alea = (ext) => {
+  return `${Math.floor(Math.random() * 10000)}${ext}`;};
+
+
+  const stickerFileName = alea(".webp");
+
+
+            // image
+  if (mtype === "imageMessage" ||tagImage) {
+    let downloadFilePath;
+    if (ms.message.imageMessage) {
+      downloadFilePath = ms.message.imageMessage;
+    } else {
+      // picture mentioned
+      downloadFilePath =
+        ms.message.extendedTextMessage.contextInfo.quotedMessage.imageMessage;
+    }
+    // picture
+    const media = await downloadContentFromMessage(downloadFilePath, "image");
+    let buffer = Buffer.from([]);
+    for await (const elm of media) {
+      buffer = Buffer.concat([buffer, elm]);
+    }
+
+    sticker = new Sticker(buffer, {
+      pack:"Baraka-MD" ,
+      author: nomAuteurMessage,
+      type:
+        arg.includes("crop") || arg.includes("c")
+          ? StickerTypes.CROPPED
+          : StickerTypes.FULL,
+      quality: 100,
+    });
+  } else if (mtype === "videoMessage" || tagVideo) {
+    // videos
+    let downloadFilePath;
+    if (ms.message.videoMessage) {
+      downloadFilePath = ms.message.videoMessage;
+    } else {
+      downloadFilePath =
+        ms.message.extendedTextMessage.contextInfo.quotedMessage.videoMessage;
+    }
+    const stream = await downloadContentFromMessage(downloadFilePath, "video");
+    let buffer = Buffer.from([]);
+    for await (const elm of stream) {
+      buffer = Buffer.concat([buffer, elm]);
+    }
+
+    sticker = new Sticker(buffer, {
+      pack:"Baraka-MD", // pack stick
+      author:  nomAuteurMessage, // name of the author of the stick
+      type:
+        arg.includes("-r") || arg.includes("-c")
+          ? StickerTypes.CROPPED
+          : StickerTypes.FULL,
+      quality: 40,
+    });
+  } else {
+    repondre("Please mention an image or video!");
+    return;
+  }
+
+  await sticker.toFile(stickerFileName);
+  await zk.sendMessage(
+    origineMessage,
+    {
+      sticker: fs.readFileSync(stickerFileName),
+    },
+    { quoted: ms }
+  );
+
+try{
+  fs.unlinkSync(stickerFileName)
+}catch(e){console.log(e)}
+
+
+
+
+
+  
+});
+
+zokou({nomCom:"croppic",categorie: "Conversion", reaction: "👨🏿‍💻"},async(origineMessage,zk,commandeOptions)=>{
+   const {ms , msgRepondu,arg,repondre,nomAuteurMessage} = commandeOptions ;
+
+  if(!msgRepondu) { repondre( 'make sure to mention the media' ) ; return } ;
+  if(!(arg[0])) {
+       pack = nomAuteurMessage
+  } else {
+    pack = arg.join(' ')
+  } ;
+  if (msgRepondu.imageMessage) {
+     mediamsg = msgRepondu.imageMessage
+  } else if(msgRepondu.videoMessage) {
+mediamsg = msgRepondu.videoMessage
+  } 
+  else if (msgRepondu.stickerMessage) {
+    mediamsg = msgRepondu.stickerMessage ;
+  } else {
+    repondre('Uh media please'); return
+  } ;
+
+  var stick = await zk.downloadAndSaveMediaMessage(mediamsg)
+
+     let stickerMess = new Sticker(stick, {
+            pack: pack,
+            
+            type: StickerTypes.CROPPED,
+            categories: ["🤩", "🎉"],
+            id: "12345",
+            quality: 70,
+            background: "transparent",
+          });
+          const stickerBuffer2 = await stickerMess.toBuffer();
+          zk.sendMessage(origineMessage, { sticker: stickerBuffer2 }, { quoted: ms });
+
+});
+
+zokou({nomCom:"getsticker",categorie: "Conversion", reaction: "👨🏿‍💻"},async(origineMessage,zk,commandeOptions)=>{
+   const {ms , msgRepondu,arg,repondre,nomAuteurMessage} = commandeOptions ;
+
+  if(!msgRepondu) { repondre( 'make sure to mention the media' ) ; return } ;
+  if(!(arg[0])) {
+       pack = nomAuteurMessage
+  } else {
+    pack = arg.join(' ')
+  } ;
+  if (msgRepondu.imageMessage) {
+     mediamsg = msgRepondu.imageMessage
+  } else if(msgRepondu.videoMessage) {
+mediamsg = msgRepondu.videoMessage
+  } 
+  else if (msgRepondu.stickerMessage) {
+    mediamsg = msgRepondu.stickerMessage ;
+  } else {
+    repondre('Uh a media please'); return
+  } ;
+
+  var stick = await zk.downloadAndSaveMediaMessage(mediamsg)
+
+     let stickerMess = new Sticker(stick, {
+            pack: pack,
+            
+            type: StickerTypes.FULL,
+            categories: ["🤩", "🎉"],
+            id: "12345",
+            quality: 70,
+            background: "transparent",
+          });
+          const stickerBuffer2 = await stickerMess.toBuffer();
+          zk.sendMessage(origineMessage, { sticker: stickerBuffer2 }, { quoted: ms });
+
+});
+
+
+
+zokou({ nomCom: "words", categorie: "Conversion", reaction: "👨🏿‍💻" }, async (origineMessage, zk, commandeOptions) => {
+  const { ms, msgRepondu, arg, repondre, nomAuteurMessage } = commandeOptions;
+
+  if (!msgRepondu) {
+    repondre('Please mention an image');
+    return;
+  }
+
+  if (!msgRepondu.imageMessage) {
+    repondre('The command only works with images');
+    return;
+  } ;
+  text = arg.join(' ') ;
+  
+  if(!text || text === null) {repondre('Make sure to insert text') ; return } ;
+ 
+  
+  const mediamsg = msgRepondu.imageMessage;
+  const image = await zk.downloadAndSaveMediaMessage(mediamsg);
+
+  //Create a FormData object
+  const data = new FormData();
+  data.append('image', fs.createReadStream(image));
+
+  //Configure headers
+  const clientId = 'b40a1820d63cd4e'; // Replace with your Imgur client ID
+  const headers = {
+    'Authorization': `Client-ID ${clientId}`,
+    ...data.getHeaders()
+  };
+
+  // Configure the query
+  const config = {
+    method: 'post',
+    maxBodyLength: Infinity,
+    url: 'https://api.imgur.com/3/image',
+    headers: headers,
+    data: data
+  };
+
+  try {
+    const response = await axios(config);
+    const imageUrl = response.data.data.link;
+    console.log(imageUrl)
+
+    //Use imageUrl however you want (meme creation, etc.)
+    const meme = `https://api.memegen.link/images/custom/-/${text}.png?background=${imageUrl}`;
+
+    // Create the sticker
+    const stickerMess = new Sticker(meme, {
+      pack: nomAuteurMessage,
+      author: 'Baraka-MD',
+      type: StickerTypes.FULL,
+      categories: ["🤩", "🎉"],
+      id: "12345",
+      quality: 70,
+      background: "transparent",
+    });
+
+    const stickerBuffer2 = await stickerMess.toBuffer();
+    zk.sendMessage(
+      origineMessage,
+      { sticker: stickerBuffer2 },
+      { quoted: ms }
+    );
+
+  } catch (error) {
+    console.error('Error uploading to Imgur :', error);
+    repondre('An error occurred while creating the meme.');
+  }
+});
+
+
+
+zokou({nomCom:"picture",categorie: "Conversion", reaction: "👨🏿‍💻"},async(dest,zk,commandeOptions)=>{
+   const {ms , msgRepondu,arg,repondre,nomAuteurMessage} = commandeOptions ;
+
+  if(!msgRepondu) { repondre( 'make sure to mention the media' ) ; return } ;
+ 
+   if (!msgRepondu.stickerMessage) {
+      repondre('Um mention a non-animated sticker'); return
+  } ;
+
+ let mediaMess = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage);
+
+  const alea = (ext) => {
+  return `${Math.floor(Math.random() * 10000)}${ext}`;};
+  
+  let ran = await alea(".png");
+
+  
+        exec(`ffmpeg -i ${mediaMess} ${ran}`, (err) => {
+          fs.unlinkSync(mediaMess);
+          if (err) {
+            zk.sendMessage(
+              dest,
+              {
+                text: 'A non-animated sticker please',
+              },
+              { quoted: ms }
+            );
+            return;
+          }
+          let buffer = fs.readFileSync(ran);
+          zk.sendMessage(
+            dest,
+            { image: buffer },
+            { quoted: ms }
+          );
+          fs.unlinkSync(ran);
+        });
+});
+
+zokou({ nomCom: "translate", categorie: "Conversion", reaction: "👨🏿‍💻" }, async (dest, zk, commandeOptions) => {
+
+  const { msgRepondu, repondre , arg } = commandeOptions;
+
+  
+   if(msgRepondu) {
+     try {
+      
+     
+
+       if(!arg || !arg[0]) { repondre('(eg : translate en)') ; return }
+   
+
+         let texttraduit = await traduire(msgRepondu.conversation , {to : arg[0]}) ;
+
+         repondre(texttraduit)
+
+        } catch (error) {
+          
+          repondre('Mention a texte Message') ;
+      
+        }
+
+   } else {
+     
+     repondre('Mention a texte Message')
+   }
+
+
+
+}) ;
