@@ -108,6 +108,9 @@ setTimeout(() => {
             }
             ///////
         };
+        const zk = (0, baileys_1.default)(sockOptions);
+store.bind(zk.ev);
+        
         const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 // Track the last reaction time to prevent overflow
@@ -159,10 +162,7 @@ if (conf.AUTO_REACT_STATUS === "yes") {
         }
     });
 }
-        const zk = (0, baileys_1.default)(sockOptions);
-        store.bind(zk.ev);
-        setInterval(() => { store.writeToFile("store.json"); }, 3000);
-        // Utility function for delay
+        
         zk.ev.on("messages.upsert", async (m) => {
             const { messages } = m;
             const ms = messages[0];
