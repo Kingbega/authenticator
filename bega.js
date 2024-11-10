@@ -111,6 +111,59 @@ setTimeout(() => {
         const zk = (0, baileys_1.default)(sockOptions);
         store.bind(zk.ev);
         setInterval(() => { store.writeToFile("store.json"); }, 3000);
+        // Utility function for delay
+const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+// Track the last reaction time to prevent overflow
+let lastReactionTime = 0;
+
+// Auto-react to status updates, handling each status one-by-one without tracking
+if (conf.AUTO_REACT_STATUS === "yes") {
+    console.log("AUTO_REACT_STATUS is enabled. Listening for status updates...");
+
+    zk.ev.on("messages.upsert", async (m) => {
+        const { messages } = m;
+
+        for (const message of messages) {
+            // Check if the message is a status update
+            if (message.key && message.key.remoteJid === "status@broadcast") {
+                console.log("Detected status update from:", message.key.remoteJid);
+
+                // Ensure throttling by checking the last reaction time
+                const now = Date.now();
+                if (now - lastReactionTime < 5000) {  // 5-second interval
+                    console.log("Throttling reactions to prevent overflow.");
+                    continue;
+                }
+
+                // Check if bot user ID is available
+                const adams = zk.user && zk.user.id ? zk.user.id.split(":")[0] + "@s.whatsapp.net" : null;
+                if (!adams) {
+                    console.log("Bot's user ID not available. Skipping reaction.");
+                    continue;
+                }
+
+                // React to the status with a green heart
+                await zk.sendMessage(message.key.remoteJid, {
+                    react: {
+                        key: message.key,
+                        text: "💙", // Reaction emoji
+                    },
+                }, {
+                    statusJidList: [message.key.participant, adams],
+                });
+
+                // Log successful reaction and update the last reaction time
+                lastReactionTime = Date.now();
+                console.log(`Successfully reacted to status update by ${message.key.remoteJid}`);
+
+                // Delay to avoid rapid reactions
+                await delay(2000); // 2-second delay between reactions
+            }
+        }
+    });
+}
+
         zk.ev.on("messages.upsert", async (m) => {
             const { messages } = m;
             const ms = messages[0];
@@ -250,7 +303,25 @@ function mybotpic() {
             
             };
 
-
+         
+if (!superUser && origineMessage === auteurMessage && conf.ADAM === "yes") {
+    const emojis = [
+        '🚗', '🚕', '🚙', '🚌', '🚎', '🏎️', '🚓', '🚑', '🚒', '🚐', '🚚', '🚛', '🚜', // Car and vehicle emojis
+        '❤️', '💛', '💚', '💙', '💜', '🧡', '🖤', '💖', '💗', '💘', '💝', '💞', '💕', '💓', // Love emojis
+        '😁', '😆', '😅', '😂', '🤣', '😊', '😇', '🙂', '🙃', '😉', '😌', '😍', '🥰', '😘', '😗', '😙', // Happy and positive emojis
+        '🍕', '🍔', '🍟', '🌭', '🍿', '🥤', '🍩', '🍪', '🍫', '🍦', '🍰', '🍾', '🍷', '🍺', '🥂', // Food and drink emojis
+        '🌹', '🌷', '🌸', '🌺', '🌻', '🌼', '🌞', '🌝', '🌜', '🌙', '🌟', '🌈', '✨', '💫', // Nature and sparkle emojis
+        '🐱', '🐶', '🐭', '🐹', '🐰', '🐻', '🐼', '🐨', '🐯', '🦁', '🐸', '🐒', '🐔', '🐧', // Animal emojis
+        '⚽', '🏀', '🏈', '⚾', '🎾', '🏐', '🏉', '🎱', '🥇', '🥈', '🥉', '🏆', '🎮', '🎲', // Sports and games emojis
+    ];
+    const emokis = emojis[Math.floor(Math.random() * emojis.length)];
+    zk.sendMessage(origineMessage, {
+        react: {
+            text: emokis,
+            key: ms.key
+        }
+    });
+                }
             /************************ anti-delete-message */
 
             if(ms.message.protocolMessage && ms.message.protocolMessage.type === 0 && (conf.ADM).toLocaleLowerCase() === 'yes' ) {
