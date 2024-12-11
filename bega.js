@@ -885,13 +885,10 @@ zk.ev.on('group-participants.update', async (group) => {
         zk.ev.on("connection.update", async (con) => {
             const { lastDisconnect, connection } = con;
             if (connection === "connecting") {
-                console.log("baraka xmd is connecting in your account...");
+                console.log("ℹ️ Baraka Md is connecting...");
             }
             else if (connection === 'open') {
-       
-                      await zk.groupAcceptInvite("G9QKCerGvtq6Au8znk3kvC");
-                     
-                console.log("Baraka xmd connected successfully✔");
+                console.log("🍀 Baraka Md Connected to WhatsApp! 🍀");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
